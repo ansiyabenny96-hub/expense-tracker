@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './App.css';
 
-const API_URL = 'https://expense-tracker-backend.vercel.app/api/expenses';
+constAPI_URL = 'https://expense-tracker-a3f4.vercel.app/api/expenses';
 
 function App() {
   const [expenses, setExpenses] = useState([]);
